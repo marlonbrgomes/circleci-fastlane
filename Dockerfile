@@ -1,4 +1,4 @@
-FROM circleci/node:latest
+FROM circleci/node:9
 LABEL maintainer="marlonbrgomes@gmail.com"
 
 RUN sudo apt-get update \
